@@ -36,6 +36,15 @@
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/Settings"
+        android:name="com.example.myapplication.Settings"
+        android:label="@string/settings"
+        tools:layout="@layout/settings" >
+    </fragment>
+    <action
+        android:id="@+id/action_go_to_settings"
+        app:destination="@id/Settings" />
     <action
         android:id="@+id/action_Logout"
         app:destination="@id/Login" />

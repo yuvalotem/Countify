@@ -6,13 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
 
-    <TextView
-        android:id="@+id/textview_first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_first_fragment"
-        app:layout_constraintBottom_toTopOf="@id/button_first"
+    <Button
+        android:id="@+id/copy_card"
+        android:layout_width="272dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="289dp"
+        android:layout_marginBottom="85dp"
+        android:text="@string/copy_card"
+        app:icon="@drawable/ic_baseline_content_copy_24"
+        app:layout_constraintBottom_toTopOf="@+id/button_second"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,18 +24,13 @@
         android:id="@+id/button_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/next"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="84dp"
+        android:text="@string/go_to_use"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_first" />
-
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="החלפה"
-        app:layout_constraintStart_toStartOf="@+id/button_first"
-        app:layout_constraintTop_toBottomOf="@+id/button_first" />
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

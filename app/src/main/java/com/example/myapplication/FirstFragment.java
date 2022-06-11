@@ -33,12 +33,10 @@ public class FirstFragment extends Fragment {
                         .navigate(R.id.action_FirstFragment_to_SecondFragment);
             }
         });
-        view.findViewById(R.id.switch1).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.copy_card).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                toggleState = !toggleState;
-                String toggleStateInText = toggleState ? "on" : "off";
-                Snackbar.make(view, "Toggled Button to-" + toggleStateInText, Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Copied Card", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });

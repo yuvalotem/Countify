@@ -1,20 +1,23 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="action_settings">Settings</string>
+    <string name="settings">Settings</string>
     <string name="action_logout">Logout</string>
     <!-- Strings used for fragments for navigation -->
     <string name="login_label">Login</string>
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="first_fragment_label">Card Emulation</string>
+    <string name="second_fragment_label">Card Actions</string>
     <string name="login">Login</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="go_to_use">Go To Use</string>
+    <string name="go_to_copy">Go To Copy</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="use_card">Use Card</string>
+    <string name="copy_card">Copy Card</string>
 
     <string name="welcome_text">Welcome to Countify</string>
     <string name="user_name">User Name</string>
     <string name="password">Password</string>
+
+    <string name="card_name">Card Name</string>
+    <string name="creation_time">Creation Time</string>
 
 </resources>

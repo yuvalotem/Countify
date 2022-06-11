@@ -50,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Navigation.findNavController(this,R.id.nav_host_fragment)
+                    .navigate(R.id.action_go_to_settings);
             return true;
         }
         if (id == R.id.action_logout) {
